@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - FireRange
   layers:
   - Default
   - TransparentFX
@@ -11,7 +13,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Obstacle
   - 
   - 
   - 
@@ -40,4 +42,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Bullet
+    uniqueID: 1458536877
+    locked: 0
+  - name: Character
+    uniqueID: 4099759777
+    locked: 0
+  - name: UI
+    uniqueID: 1650236243
     locked: 0
