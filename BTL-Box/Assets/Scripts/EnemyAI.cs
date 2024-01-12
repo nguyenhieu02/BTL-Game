@@ -127,6 +127,3 @@ public class EnemyAI : MonoBehaviour
         PlayerHealth.GetComponent<Player>().TakeDamageEffect(damage);
     }
 }
-
-
-
